@@ -10,7 +10,7 @@ export function Summary() {
                     <figure><ArrowCircleUp size={32} /></figure>
                 </SummaryHeader>
                 <SummaryBody>
-                    <span>R$</span>
+                    <strong>R$</strong>
                     <strong>17.400,00</strong>
                 </SummaryBody>
             </SummaryCard>
@@ -21,7 +21,7 @@ export function Summary() {
                     <figure><ArrowCircleDown size={32} /></figure>
                 </SummaryHeader>
                 <SummaryBody>
-                    <span>R$</span>
+                    <strong>R$</strong>
                     <strong>17.400,00</strong>
                 </SummaryBody>
             </SummaryCard>
@@ -32,7 +32,7 @@ export function Summary() {
                     <CurrencyDollar size={32} />
                 </SummaryHeader>
                 <SummaryBody>
-                    <span>R$</span>
+                    <strong>R$</strong>
                     <strong>17.400,00</strong>
                 </SummaryBody>
 
