@@ -1,9 +1,13 @@
+import { SearchForm } from "./components/SearchForm"
 import { TransactionsContainer, TransactionsTable } from "./styles"
 
 
 export function Transactions() {
     return (
         <TransactionsContainer>
+
+            <SearchForm />
+
             <TransactionsTable>
                <tr>
                    <td>Desenvolvimento de site</td>
