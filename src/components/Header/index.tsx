@@ -1,5 +1,6 @@
 import { HeaderContainer, HeaderContent, Logo, Navigation } from "./styles";
 import * as Dialog from '@radix-ui/react-dialog';
+import { NewTransactionModal } from "../NewTransactionModal";
 
 import logoImg from '../../assets/images/logo.svg'
 
@@ -14,14 +15,7 @@ export function Header() {
                             <button type="button">Nova transação</button>
                         </Dialog.Trigger>
 
-                        <Dialog.Portal>
-                            <Dialog.Overlay />
-                            <Dialog.Content>
-                                <Dialog.Title>Nova Transação</Dialog.Title>
-
-                                <Dialog.Close />
-                            </Dialog.Content>
-                        </Dialog.Portal>
+                        <NewTransactionModal />
                     </Dialog.Root>
                 </Navigation>
             </HeaderContent>
