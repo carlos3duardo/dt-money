@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const TransactionsContainer = styled.main`
   width: 100%;
@@ -8,37 +8,37 @@ export const TransactionsContainer = styled.main`
 `
 
 export const TransactionsTable = styled.table`
-    width: 100%;
-    border-collapse: separate;
-    border-spacing: 0 0.5rem;
-    margin-top: 1.5rem;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 0.5rem;
+  margin-top: 1.5rem;
 
-    td {
-        padding: 1.25rem 2rem;
-        background-color: ${props => props.theme.gray700};
+  td {
+    padding: 1.25rem 2rem;
+    background-color: ${(props) => props.theme.gray700};
 
-        &:first-child {
-            width: 50%;
-            border-top-left-radius: 6px;
-            border-bottom-left-radius: 6px;
-        }
-
-        &:last-child {
-            border-top-right-radius: 6px;
-            border-bottom-right-radius: 6px;
-        }
-
-        &.income {
-            color: ${props => props.theme.green300};
-            text-align: right;
-        }
-
-        &.outcome {
-            color: ${props => props.theme.red300};
-            text-align: right;
-            &::before {
-                content: '- ';
-            }
-        }
+    &:first-child {
+      width: 50%;
+      border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px;
     }
+
+    &:last-child {
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px;
+    }
+
+    &.income {
+      color: ${(props) => props.theme.green300};
+      text-align: right;
+    }
+
+    &.outcome {
+      color: ${(props) => props.theme.red300};
+      text-align: right;
+      &::before {
+        content: '- ';
+      }
+    }
+  }
 `

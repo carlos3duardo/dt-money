@@ -1,7 +1,7 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const HeaderContainer = styled.header`
-  background: ${props => props.theme.gray900};
+  background: ${(props) => props.theme.gray900};
   padding: 2.5rem 0 7.5rem 0;
 `
 
@@ -37,8 +37,8 @@ export const Navigation = styled.div`
   button {
     height: 50px;
     border: 0;
-    background-color: ${props => props.theme.green500};
-    color: ${props => props.theme.white};
+    background-color: ${(props) => props.theme.green500};
+    color: ${(props) => props.theme.white};
 
     font-weight: bold;
     padding: 0 1.25rem;
@@ -48,7 +48,7 @@ export const Navigation = styled.div`
     transition: background-color 0.2s;
 
     &:hover {
-      background-color: ${props => props.theme.green700};
+      background-color: ${(props) => props.theme.green700};
     }
   }
 `

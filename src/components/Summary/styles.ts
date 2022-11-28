@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const SummaryContainer = styled.section`
   width: 100%;
@@ -14,9 +14,8 @@ export const SummaryContainer = styled.section`
 `
 
 interface SummaryCardProps {
-  variant?: 'income' | 'outcome' | 'total';
+  variant?: 'income' | 'outcome' | 'total'
 }
-
 
 export const SummaryHeader = styled.header`
   display: flex;
@@ -25,25 +24,27 @@ export const SummaryHeader = styled.header`
 
   span {
     line-height: 160%;
-    color: ${props => props.theme.gray300};
+    color: ${(props) => props.theme.gray300};
   }
 `
 
 export const SummaryCard = styled.div<SummaryCardProps>`
-  background-color: ${props => props.variant === 'total' ? props.theme.green700 : props.theme.gray600 };
+  background-color: ${(props) =>
+    props.variant === 'total' ? props.theme.green700 : props.theme.gray600};
   border-radius: 6px;
   padding: 2rem;
 
   ${SummaryHeader} {
     svg {
-      color: ${props => props.variant === 'income' ? props.theme.green300
-        : props.variant === 'outcome' ? props.theme.red300
-        : props.theme.white }
+      color: ${(props) =>
+        props.variant === 'income'
+          ? props.theme.green300
+          : props.variant === 'outcome'
+          ? props.theme.red300
+          : props.theme.white};
     }
   }
-
 `
-
 
 export const SummaryBody = styled.div`
   display: flex;
@@ -51,6 +52,6 @@ export const SummaryBody = styled.div`
   justify-content: space-between;
   margin-top: 1rem;
 
-  color: ${props => props.theme.white};
+  color: ${(props) => props.theme.white};
   font-size: 2rem;
 `
