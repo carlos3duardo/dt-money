@@ -6,7 +6,7 @@
             "type": "income",
             "category": "Serviço",
             "value": 12000,
-            "createdAt": "2022-11-28T00:02:35.318Z"
+            "createdAt": "2022-11-05T00:10:35.318Z"
         },
         {
             "id": 2,
@@ -14,7 +14,23 @@
             "type": "outcome",
             "category": "Alimentação",
             "value": 42,
-            "createdAt": "2022-11-29T00:13:35.318Z"
+            "createdAt": "2022-11-05T00:13:35.318Z"
+        },
+        {
+            "id": 3,
+            "description": "Gasolina (22,2 litros)",
+            "type": "outcome",
+            "category": "Combustível",
+            "value": 60,
+            "createdAt": "2022-11-06T00:13:35.318Z"
+        },
+        {
+            "id": 4,
+            "description": "Energisa",
+            "type": "outcome",
+            "category": "Energia",
+            "value": 280.42,
+            "createdAt": "2022-11-08T00:18:01.318Z"
         }
     ]
 }
