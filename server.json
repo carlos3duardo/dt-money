@@ -2,7 +2,7 @@
     "transactions": [
         {
             "id": 1,
-            "descpription": "Desenvolvimento de site",
+            "description": "Desenvolvimento de site",
             "type": "income",
             "category": "Serviço",
             "value": 12000,
@@ -10,7 +10,7 @@
         },
         {
             "id": 2,
-            "descpription": "Almoço",
+            "description": "Almoço",
             "type": "outcome",
             "category": "Alimentação",
             "value": 42,
